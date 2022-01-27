@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Document description",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "docsify init ./docs && echo \"文档网站目录已生成，请手动编写Markdown文件内容\"",
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhg-x/docs.git"
+  },
+  "keywords": [
+    "docs"
+  ],
+  "author": "zhg-x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhg-x/docs/issues"
+  },
+  "homepage": "https://github.com/zhg-x/docs#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.3"
+  }
+}
