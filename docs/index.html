@@ -20,9 +20,18 @@
       loadNavbar: 'navbar.md', // 配置导航栏
       loadSidebar: 'sidebar.md', // 配置侧边栏（侧边栏生成后默认不再生成文档目录）
       subMaxLevel: 7, // 自定义侧边栏后默认不再生成文档目录，可以使用该配置设置生成目录的最大层级开启目录显示
+
+      // docsify-copy-code
+      copyCode: {
+        buttonText : '复制',
+        errorText  : 'Error',
+        successText: '复制成功'
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 代码块支持复制到剪切板 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>
