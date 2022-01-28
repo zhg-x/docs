@@ -1,5 +1,5 @@
 <!-- 侧边栏配置 -->
 
 * [首页](home.md)
-* [示例](example/example.md)
+* [@zhg-x/common-utils](utils-docs/README.md)
 * [指南](zh-cn/guide)
