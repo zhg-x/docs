@@ -13,10 +13,6 @@ convertToStr(arg: any): string
 
 该方法只支持`number`、`null`、`undefined`、`object`类型的参数转换成string字符串；`Array`和`Function`类型的参数不做转换，原样返回。
 
-返回值
-
-`string`
-
 示例
 ```
 convertToStr('');                 // 返回''

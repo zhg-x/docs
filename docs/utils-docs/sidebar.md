@@ -6,3 +6,4 @@
   * [StringUtils](utils-docs/StringUtils.md)
   * [NumberUtils](utils-docs/NumberUtils.md)
   * [DateUtils](utils-docs/DateUtils.md)
+  * [Utils](utils-docs/Utils.md)
