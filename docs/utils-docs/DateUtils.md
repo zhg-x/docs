@@ -54,6 +54,12 @@ getDatesFromDateRange(startDate: Date, endDate: Date): Date[]
 
 `Date[]`，日期数组
 
+**注意**
+
+开始日期和结束日期进行比较时是通过`getTime()`方法获取毫秒数进行比较大小。以开始日期为基础日期，循环加1天与结束日期进行比较。
+
+
+
 ___
 
 ## dateFormat()
@@ -61,7 +67,7 @@ ___
 日期格式化
 
 ```
-dateFormat(date, fmt?): string
+dateFormat(date: Date, fmt?: string): string
 ```
 
 参数
@@ -69,7 +75,7 @@ dateFormat(date, fmt?): string
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `date` | `Date` |  | 日期，必填 |
-| `fmt` | `string` | `'YYYY-MM-dd'` | 格式，默认格式：YYYY-MM-dd |
+| `fmt` | `string` | `'YYYY-MM-dd'` | 格式，默认格式：YYYY-MM-dd，可选 |
 
 **格式说明**
 
@@ -82,7 +88,7 @@ dateFormat(date, fmt?): string
 
 返回值
 
-`string`，日期格式化后的string字符串
+`string`，日期格式化后的`string`字符串
 
 示例
 
