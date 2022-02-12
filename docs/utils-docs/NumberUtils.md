@@ -2,6 +2,8 @@
 
 数字相关工具类，包括JS浮点数的四则运算方法，在一定程度上解决了JS浮点数运算时精度丢失的问题。
 
+---
+
 ## Options
 
 ```typescript
@@ -17,14 +19,14 @@ class Options {
 
 ## numberCheck()
 
-number类型数字检查
+`number`类型数字检查
 ```
-numberCheck(arg: any, options?): any
+numberCheck(arg: any[, options: Options]): any
 ```
 
-1. 如果options.transformFlag值为true且参数值为null、undefined、空字符串时，则将参数值转换为数字0，否则不做转换；
+1. 如果`options.transformFlag`值为`true`且参数值为`null`、`undefined`、`空字符串`时，则将参数值转换为数字`0`，否则不做转换；
 
-2. 判断上一步处理后的参数值是否为正数、负数、小数，如果是则将参数原样返回，否则抛出TypeError。
+2. 判断上一步处理后的参数值是否为正数、负数、小数，如果是则将参数原样返回，否则抛出`TypeError`。
 
 返回值
 
