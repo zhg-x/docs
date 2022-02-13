@@ -23,9 +23,19 @@
 
       // docsify-copy-code
       copyCode: {
-        buttonText : '复制',
-        errorText  : 'Error',
+        buttonText: '复制',
+        errorText: 'Error',
         successText: '复制成功'
+      },
+      scrollToTop: {
+        auto: true,
+        // text: 'Go To Top',
+        icon: 'arrow-up-1',
+        right: 15,
+        bottom: 15,
+        width: 40,
+        height: 40,
+        offset: 500
       }
     }
   </script>
@@ -33,5 +43,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 代码块支持复制到剪切板 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- 当页面滚动条滚动到一定位置时，显示返回顶部的按钮，点击按钮可返回页面顶部 -->
+  <script src="//unpkg.com/@zhg-x/docsify-plugins@1.0.2/src/scroll-to-top.js"></script>
 </body>
 </html>
